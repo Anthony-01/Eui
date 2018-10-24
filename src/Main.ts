@@ -62,6 +62,7 @@ class Main extends eui.UILayer {
     }
 
     private async runGame() {
+        //修改
         await this.loadResource();
 
         this.createGameScene();
